@@ -30,8 +30,6 @@ This project is a base for building sophisticated voice-first experiences — wh
 | Flutter | UI framework |
 | Dart | App logic |
 | C++ / Native Modules | Platform-specific audio handling |
-| CMake | Build scripts |
-| Swift | iOS audio support |
 | HTML | Web hooks/UI (if enabled) |
 
 ---
