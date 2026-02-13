@@ -1,16 +1,53 @@
-# voice_digest
+# 🎤 Voice-Digest
 
-A new Flutter project.
+[![Flutter](https://img.shields.io/badge/built%20with-Flutter-02569B.svg)](https://flutter.dev)  
+A beautiful & powerful **Flutter voice processing app** designed to *capture, analyze, and summarize voice inputs* — perfect for note taking, transcription, and voice-driven workflows.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 What is Voice-Digest?
 
-A few resources to get you started if this is your first Flutter project:
+Voice-Digest is a cross-platform mobile app built with **Flutter** that enables users to **record their voice**, **digest the content**, and *generate meaningful insights* such as summaries, text transcripts, or intelligent conversions.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This project is a base for building sophisticated voice-first experiences — whether for productivity, accessibility, or AI-powered voice assistants.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📱 Key Features
+
+✨ *Clean UI & cross-platform support* — works on Android, iOS, macOS, Linux, Windows.  
+🎙️ Voice recording interface with audio capture support.  
+🧠 Extensible architecture to integrate AI-based voice understanding or transcription.  
+📂 Modular codebase — separate platform folders (`android`, `ios`, `linux`, `macos`, `windows`, `web`).  
+🧪 Ready for testing and expansion.
+
+---
+
+## 🧩 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Flutter | UI framework |
+| Dart | App logic |
+| C++ / Native Modules | Platform-specific audio handling |
+| CMake | Build scripts |
+| Swift | iOS audio support |
+| HTML | Web hooks/UI (if enabled) |
+
+---
+
+## 🛠️ Getting Started
+
+### 🔧 Prerequisites
+
+Make sure you have the following installed:
+
+- Flutter SDK (stable channel)
+- A compatible IDE (VS Code, Android Studio)
+- Device or simulator/emulator
+
+### 📦 Clone the Repository
+
+```bash
+git clone https://github.com/Nishanttxx/Voice-Digest.git
+cd Voice-Digest
