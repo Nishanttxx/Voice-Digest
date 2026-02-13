@@ -1,0 +1,52 @@
+name: voice_digest
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.0
+
+  cupertino_icons: ^1.0.8
+
+  # Voice Recording & File System
+  record: ^5.0.5
+  path_provider: ^2.1.3
+  # permission_handler: ^11.3.1
+
+  # Gemini AI
+  google_generative_ai: ^0.4.3
+  flutter_dotenv: ^5.1.0
+
+  # Local Database
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  riverpod: ^2.6.1
+  flutter_riverpod: ^2.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+  # Isar Code Generation
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.4.9
+
+dependency_overrides:
+  record_linux:
+    path: packages/record_linux
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+
+
